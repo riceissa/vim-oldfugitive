@@ -45,7 +45,7 @@ cd vim-oldfugitive
 curl https://raw.githubusercontent.com/tpope/vim-fugitive/b82abd5bd583cfb90be63ae12adc36a84577bd45/plugin/fugitive.vim > plugin/oldfugitive.vim
 ```
 
-Open `plugin/fugitive.vim` in vim.
+Open `plugin/oldfugitive.vim` in vim.
 
 Run the following substitutions:
 
