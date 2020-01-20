@@ -26,6 +26,10 @@ Then call `:PlugInstall vim-oldfugitive`
 
 ## Steps to reproduce
 
+Note: If you just want to use this plugin, use the installation instructions
+above. This section is just gives information on how this plugin was created
+(mostly as notes to myself).
+
 The basic idea is pretty simple: find an old copy of fugitive, disable all the
 commands (because we want the latest version of fugitive to handle those), and
 make available a single command that has the old behavior of `:Git diff`.
