@@ -22,12 +22,12 @@ Install using any of the package managers. For example in vim-plug, add the line
 Plug 'riceissa/vim-oldfugitive'
 ```
 
-Then call `:PlugInstall vim-oldfugitive`
+Then call `:PlugInstall vim-oldfugitive`.
 
 ## Steps to reproduce
 
 Note: If you just want to use this plugin, use the installation instructions
-above. This section is just gives information on how this plugin was created
+above. This section just gives information on how this plugin was created
 (mostly as notes to myself).
 
 The basic idea is pretty simple: find an old copy of fugitive, disable all the
