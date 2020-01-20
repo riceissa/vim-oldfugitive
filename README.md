@@ -48,8 +48,10 @@ Run the following substitutions:
 ```vim
 :%s/\Cfugitive/oldfugitive/g
 :%s/\CFugitive/OldFugitive/g
-:g/^call s:command(/d
 ```
+
+Delete all lines starting with `call s:command(` (this can almost be done with
+a `:g/.../d` but there are line continuations that make it annoying).
 
 After the line
 
